@@ -1,0 +1,26 @@
+{
+  "name": "@discord-rose/voice",
+  "description": "Enables voice for Discord Rose",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord-rose/voice-extension.git"
+  },
+  "keywords": [
+    "voice",
+    "discord",
+    "discord-rose"
+  ],
+  "author": "matthewthechickenman",
+  "bugs": {
+    "url": "https://github.com/discord-rose/voice-extension/issues"
+  },
+  "homepage": "https://github.com/discord-rose/voice-extension#readme",
+  "dependencies": {
+    "discord-rose": "0.0.11"
+  }
+}
