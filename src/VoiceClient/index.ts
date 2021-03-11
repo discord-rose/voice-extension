@@ -7,7 +7,7 @@ export default class VoiceClient {
         this.worker = worker
     }
 
-    create (channel_id: String, settings: Settings): VoiceConnection {
+    create (channel_id: String, settings: Settings = {}): VoiceConnection {
         const channel = worker.channels.get(channel_id)
         if (!channel) throw new Error('Invalid channel provided');
         const guild_id = channel.guild_id
